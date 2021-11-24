@@ -14,7 +14,7 @@ This solution run in .NET 6. Was used *Console App*, *ASP.NET CORE Web API* (alr
 
 ### Tests
 
-Tests were done to treat the number "0" as not prime through the <code>*PrimeNumChecker(uint number)*</code> function, separately, even though the number "0" does'nt reach this function in the code, because of the *for* in <code>DivisorsChecker(uint number)</code>.
+Tests were done to treat the number "0" as not prime through the <code>*PrimeNumChecker(uint number)*</code> function, separately, even though the number "0" doesn't reach this function in the code, because of the *for* in <code>DivisorsChecker(uint number)</code>.
 
 <br>
 
