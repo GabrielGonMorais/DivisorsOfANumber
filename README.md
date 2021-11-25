@@ -2,7 +2,7 @@
 Console app and API that shows the divisors of a number
 
 ##  Dependencies of the Project
-This solution run in .NET 6. Was used *Console App*, *ASP.NET CORE Web API* (already include *Swagger*), and *xUnit Test Project*, available in Visual Studio 2022.
+This solution run in .NET 6. Was used *Console App*, *ASP.NET CORE Web API* (already includes *Swagger*), and *xUnit Test Project*, available in Visual Studio 2022.
 
 <br>
 
