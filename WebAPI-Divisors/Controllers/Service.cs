@@ -23,10 +23,7 @@
 
         public static bool PrimeNumChecker(uint number)
         {
-            bool isPrime = true;
-
-            if (number == 0)
-                isPrime = false;
+            bool isPrime = (number != 0);
 
             for (uint i = 2; i < number; i++)
             {
