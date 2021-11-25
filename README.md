@@ -18,6 +18,6 @@ Tests were done to treat the number "0" as not prime through the <code>*PrimeNum
 
 <br>
 
-## Web API#
+## Web API
 
 ![apii](https://user-images.githubusercontent.com/91505442/143285659-7da75c14-77a1-4f48-9178-658444588c0b.gif)
