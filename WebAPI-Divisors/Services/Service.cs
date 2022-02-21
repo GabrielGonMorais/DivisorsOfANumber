@@ -1,10 +1,11 @@
-﻿namespace WebAPI_Divisors.Controllers
+﻿namespace WebAPI_Divisors.Services
 {
     public class Service
     {
+
         public static Divisors DivisorsChecker(uint number)
         {
-            Divisors divisors = new();
+            var divisors = new Divisors();
 
             for (uint i = 1; i <= number; i++)
             {
@@ -12,7 +13,7 @@
                 {
                     divisors.Divisor.Add(i);
 
-                    if (Service.PrimeNumChecker(i))
+                    if (PrimeNumChecker(i))
                     {
                         divisors.PrimeDivisors.Add(i);
                     }
